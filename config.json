@@ -1,0 +1,11 @@
+{
+    "domain": "www.mysite.com",
+    "awsCredentials": {
+        "region": "us-east-1",
+        "accessKeyId": "AKIAXKPP3UF47J5MDBHX",
+        "secretAccessKey": "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"
+    },
+    "confidence": 30,
+    "bucket_name": "bharat-bucket1",
+    "minConfidenceImageAnalyzer": 0
+  }
