@@ -27,8 +27,8 @@ function getSignatureKey(key, dateStamp, regionName, serviceName) {
 //     'Authorization' : 'AWS4-HMAC-SHA256 Credential=AKIAXKPP3UF47J5MDBHX/20200509/us-east-1/lex/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=babdb02da8fb8a87551764734dd37a37c1576915169a6e9b2d480d0864274783'
 // };
 
-const access_key = 'AKIAXKPP3UF47J5MDBHX';// Put here user's AWS_ACCESS_KEY_ID
-const secret_key = '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';// Put here user's AWS_SECRET_ACCESS_KEY
+const access_key = '';// Put here user's AWS_ACCESS_KEY_ID
+const secret_key = '';// Put here user's AWS_SECRET_ACCESS_KEY
 
 var credential_scope = date + '/' + region + '/' + service + '/' + 'aws4_request';
 signed_headers = 'content-type;host;x-amz-date;x-amz-target';

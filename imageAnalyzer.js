@@ -3,8 +3,8 @@ const image2base64 = require("image-to-base64");
 
 const rek = new AWS.Rekognition({
   region: 'us-east-1',
-  accessKeyId: "AKIAXKPP3UF47J5MDBHX",
-  secretAccessKey: "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"
+  accessKeyId: "",
+  secretAccessKey: ""
 });
 
 const downloadUrlImageBase64 = async url => {
